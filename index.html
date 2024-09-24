@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Неужели с телефона ?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+</head>
+<style> 
+    
+@import url("https://fonts.googleapis.com/css2?family=Ole&display=swap");
+
+body  {
+  padding: 0;
+  margin: 0;
+  background-attachment: fixed;
+  background-image: url(fon\ 2.jpg);
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.header {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+
+}
+
+.header .show-menu{
+  display: block;
+    top: 0;
+    padding: 1px 1px 0px 15px;
+}
+.header .show-menu li {
+	margin-bottom: 10px;
+}
+.menu li a:hover {
+  background: #fff;
+  color: rgb(194, 27, 27);
+  border-radius: 100px;
+}
+
+
+.menu {
+  display: flex;
+}
+
+ul, li {
+	display: block;
+	padding: 10px;
+	margin: 0;
+  font-size: 12px;
+}
+
+.menu-open {
+  background: none;
+  border: none;
+display: none;
+}
+.zagolovok {
+  font-family: 'Ole';
+  font-style: italic;
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  margin-top: 150px;
+  width: 500px;
+  height: 300px;
+  background-color: rgba(93, 4, 4, 0);
+  margin-left: 50px;
+}
+
+*{
+  box-sizing: border-box;
+}
+a {
+  font-family: "Ole", cursive;
+  font-weight: normal;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+
+.vk {
+  padding: 10px 14px;
+  background: #a675b3;
+  border-color: rgba(255, 255, 255, 0.027451) #FF8C39 rgba(255, 255, 255, 0.027451) #FF8C39;
+  border-style: solid;
+  border-width: 1px 4px 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.701961) 0px 5px 12px;
+  color: #555;
+  display: block;
+  width: 300px;
+  font-family: Open Sans, Sans-serif;
+  border-radius: 5px;
+  font-size: 20px;
+  left: 6%;
+  top: -50%;
+  letter-spacing: 4px;
+  text-shadow: rgb(0, 0, 0) 0px 1px 1px;
+  line-height: 30px;
+  position: relative;
+  margin: 20px 10px 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.vk:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  border-width: 1px 7px 1px 1px;
+}
+
+.vk:active {
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.701961) 0px 7px 12px, rgba(0, 0, 0, 0.701961) 0px 2px 12px;
+  text-shadow: rgb(0, 0, 0) 0px -2px 1px;
+  margin-top: 1px;
+}
+
+.zactavka{
+  display:none;
+}
+@media (min-width: 300px) and (max-width: 1200px) {
+  .zagolovok {
+    display: flex;
+    display:none;
+    justify-content: center;
+  position: sticky;
+    font-size: 50px;
+    margin-left: 1px;
+    margin-top: 160px;
+    
+  }
+}
+@media (min-width: 300px) and (max-width: 1200px){
+  .zactavka{
+  display:flex;
+  margin-top: 200px;
+  flex-direction: column;
+  padding-left: 10%;
+  width: 13px;
+  justify-content: center;
+  }
+}
+@media (min-width: 300px) and (max-width: 1200px){
+  .menu-open{
+    width: 40px; 
+    height: 35px;
+    display: block;
+    margin-right: 500%;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 300px) and (max-width: 1200px){
+  .vk{
+    display: none;
+  }
+}
+@media (min-width: 300px) and (max-width: 1200px){
+  .header .show-menu{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 6%;
+    width: 50px;
+    height: 10px;
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 1200px) {
+  body {
+    background-image: url(a.jpg) ;
+    background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 1200px) {
+    .menu{
+      display: none;
+    }
+  }
+</style>
+<body>
+
+        <header class="header">
+            <nav>
+                <ul class="menu"> 
+                    <li>
+                            <a  href="indexe.html">
+                                Автор	
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="#" >
+                              Галерея	
+                            </a>
+                        </li>
+                        <li >
+                            <a  href="#">
+                                Админ	
+                            </a>
+                        </li>
+                    </ul>  
+                    <button class="menu-open">
+                      <img src="burger.svg" alt="Open menu">
+                    </button>
+            </nav>
+    </header>
+    <section  >
+      <zactavka class="zactavka">
+        <video width="400" height="300"   controls="controls" >
+          <source src="vid.mp4">
+        </video>
+      </zactavka>
+        <h1  class="zagolovok"> 
+            Неужели <br> с телефона ? 
+        </h1>
+<a class="vk" href="https://vk.com/tototcelefan"> Мы вк? </a>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="main.js"></script>
+</body>
+    </html>
